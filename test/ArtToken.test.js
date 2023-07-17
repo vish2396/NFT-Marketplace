@@ -50,7 +50,7 @@ contract('ArtToken', (accounts) => {
       assert.equal(item.uri, '#EC058E', 'color is correct')
       assert.equal(item.creator, owner, 'creator is correct')
       // assert.equal(approvedAddress, market.address, 'approved address is correct')
-      assert.equal(event.from, '0xEa44E22e45a5441010Fc9A2AEDA007Dc7FD69CAF', 'from is correct')
+      assert.equal(event.from, '0xFdea7a2B2C603ABA2A323D8ca2cB2268fA9e1575', 'from is correct')
       assert.equal(event.to, accounts[0], 'to is correct')
     })
   })
